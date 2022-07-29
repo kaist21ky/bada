@@ -140,15 +140,19 @@ async def on_message(message):
     # if message.content == "ping":
     #     await message.channel.send('pong')
     #   await message.channel.send('대역죄인 컷')
+    if message.content == "//안녕":
+            await message.channel.send('안녕~')
     if str(message.author) == "이상준#7303":
         await message.add_reaction("👎")
     if str(message.author) == "바다#0198":
         if message.content == "바다야":
             await message.channel.send('왜')
-        if message.content == "@everyone":
+        elif message.content == "@everyone":
             await message.channel.send('모여!')
-        if message.content == "헐":
+        elif message.content == "헐":
             await message.channel.send('엥')
+        elif message.content == "갱":
+            await message.channel.send('구찌 갱~')
         #await message.add_reaction("🐹")
     if str(message.author) == "Naco#0801":
         if message.content == "이모지 테스트":
