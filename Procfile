@@ -1,1 +1,1 @@
-worker python3 naco-bot.py
+worker python3 bada.py
