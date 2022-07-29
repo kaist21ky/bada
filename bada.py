@@ -161,7 +161,7 @@ async def on_message(message):
             await message.add_reaction("🍎")
             await message.add_reaction("🥬")
             await message.add_reaction("🍓")
-        else:
-            #await message.add_reaction("😀")
+        # else:
+        #     #await message.add_reaction("😀")
 
 bot.run(os.environ['token'])
