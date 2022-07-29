@@ -145,7 +145,11 @@ async def on_message(message):
     if str(message.author) == "바다#0198":
         if message.content == "바다야":
             await message.channel.send('왜')
-        await message.add_reaction("🐹")
+        if message.content == "@everyone":
+            await message.channel.send('모여!')
+        if message.content == "헐":
+            await message.channel.send('엥')
+        #await message.add_reaction("🐹")
     if str(message.author) == "Naco#0801":
         if message.content == "이모지 테스트":
             await message.add_reaction("🐶")
