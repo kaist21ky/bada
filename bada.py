@@ -152,7 +152,7 @@ async def on_message(message):
     elif message.content == "아주머니~":
         await message.channel.send('오냐~')
     elif message.content == "할아버지~":
-        await message.channel.send('@Naco#0801 너 부른다 얘')
+        await message.channel.send('@Naco#0801  너 부른다 얘')
     elif message.content == "누나":
         await message.channel.send('왜')
     elif message.content == "형":
