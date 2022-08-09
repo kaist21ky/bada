@@ -149,6 +149,10 @@ async def on_message(message):
         await message.channel.send(',༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어어엌!!!!!!! ,༼;´༎ຶ۝༎ຶ༽우워어어어')
     elif message.content == "할머니~":
         await message.channel.send('오냐~')
+    elif message.content == "아주머니~":
+        await message.channel.send('오냐~')
+    elif message.content == "할아버지~":
+        await message.channel.send('@Naco 너 부른다 얘')
     
     if str(message.author) == "이상준#7303":
         await message.add_reaction("👎")
